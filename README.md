@@ -21,14 +21,14 @@ Projeyi indirdikten sonra kullanmak için yapılması gerekenler:
 Hayat Paylaşarak Ve Ögrenerek Güzel...
 
 <code>
-cp .env.example .env
-    
-composer install
-    
-php artisan key:generate
-    
-php artisan config:clear
-    
+cp .env.example .env</code>
+ <code>   
+composer install</code>
+  <code>  
+php artisan key:generate</code>
+  <code>  
+php artisan config:clear</code>
+  <code>  
 php artisan config:cache
     
 </code>
