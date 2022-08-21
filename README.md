@@ -22,8 +22,13 @@ Hayat Paylaşarak Ve Ögrenerek Güzel...
 
 <code>
 cp .env.example .env
+    
 composer install
+    
 php artisan key:generate
+    
 php artisan config:clear
+    
 php artisan config:cache
+    
 </code>
